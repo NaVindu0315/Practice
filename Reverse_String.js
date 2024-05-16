@@ -1,5 +1,8 @@
 //to reverse string
 
+/*
+ 
+
 function reverse(str)
 {
     let reversed = '';
@@ -14,3 +17,17 @@ function reverse(str)
 }
 
 console.log(reverse('kcuf'));
+*/
+
+///another way
+
+function reverse(str)
+{
+    let reversed = '';
+    for(let char of str)
+        {
+            reversed = char + reversed
+        }
+        return reversed
+}
+console.log(reverse('abmik'));
