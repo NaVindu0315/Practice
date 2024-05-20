@@ -33,10 +33,7 @@ function reverse(str)
 
 function reverse(str)
 {
-    const strtarray = str.split('');
-    strtarray.reverse();
-
-    return strtoarray.join('');
+    return str.split('').reverse().join('');
 }
 console.log(reverse('abmik'));
 
