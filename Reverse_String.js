@@ -20,7 +20,7 @@ console.log(reverse('kcuf'));
 */
 
 ///another way
-
+/*
 function reverse(str)
 {
     let reversed = '';
@@ -29,5 +29,15 @@ function reverse(str)
             reversed = char + reversed
         }
         return reversed
+}*/
+
+function reverse(str)
+{
+    const strtarray = str.split('');
+    strtarray.reverse();
+
+    return strtoarray.join('');
 }
 console.log(reverse('abmik'));
+
+
